@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+html body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+html body #sticker {
+  position: absolute;
+  width: 20vw;
+  height: 2vw;
+  line-height: 2vw;
+  font-weight: 300;
+  font-size: 1vw;
+  font-family: "Jua", sans-serif;
+  color: #FFF;
+  background-color: #F65;
+  top: 4.5vw;
+  right: -4.5vw;
+  text-align: center;
+  transform-origin: center center;
+  transform: rotate(45deg);
+}
+html body header {
+  width: 100%;
+  height: 15%;
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+html body header h1 {
+  color: #F65;
+  font-size: 10vh;
+  font-weight: 700;
+}
+html body main {
+  width: 90%;
+  height: 70%;
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+html body main section {
+  width: 30%;
+  height: 100%;
+  border: 0.8vh solid #333;
+  border-top: none;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 20vh;
+  font-weight: 700;
+}
+html body main section div {
+  height: 10%;
+  border-radius: 1vh;
+  color: #FFF;
+  transition: all 0.3s;
+  font-size: 5vh;
+  font-weight: 700;
+}
+html body main .popup_complete {
+  position: absolute;
+  width: 60%;
+  height: 50%;
+  top: 25%;
+  left: 20%;
+  transform: scale(0);
+  border-radius: 3vh;
+  border: 0.8vh solid #F65;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+html body main .popup_complete input {
+  width: 20%;
+  height: 20%;
+  border-radius: 2vh;
+  border: 0.6vh solid #F65;
+  color: #F65;
+  transition: all 0.2s;
+  background: #FFF;
+  cursor: pointer;
+  font-size: 4vh;
+  font-weight: 700;
+}
+html body main .popup_complete input:hover {
+  transition: all 0.2s;
+  color: #FFF;
+  border-color: #FFF;
+  background: transparent;
+}
+html body main .popup_complete p {
+  color: #F65;
+  letter-spacing: 0.6vw;
+  filter: drop-shadow(0.5vh 0.5vh 0 #FFF);
+  font-size: 12vh;
+  font-weight: 600;
+}
+html body main .popup_complete p:nth-child(2) {
+  font-size: 7vh;
+}
+html body footer {
+  width: 80%;
+  height: 10%;
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+html body footer input {
+  width: 10%;
+  height: 60%;
+  border-radius: 2vh;
+  border: 0.4vh solid #333;
+  background-color: #FFF;
+  color: #333;
+  transition: all 0.2s;
+  cursor: pointer;
+  font-size: 3vh;
+  font-weight: 500;
+}
+html body footer input:hover {
+  transition: all 0.2s;
+  color: #F65;
+  border-color: #F65;
+}
+html body footer input:nth-child(3) {
+  width: 4%;
+}
+html body footer input:nth-child(4) {
+  transition: none;
+  cursor: not-allowed;
+}
+html body footer input:nth-child(4):hover {
+  color: #333;
+  border-color: #333;
+}
+html body footer p {
+  color: #333;
+  font-size: 3vh;
+  font-weight: 600;
+  font-family: "Jua", sans-serif;
+}
